@@ -19,8 +19,8 @@
     .tagline{font-size:clamp(1.5rem,3vw,2.15rem);font-weight:800;margin:24px 0 10px;letter-spacing:-.025em}.sub{font-size:clamp(1rem,1.8vw,1.2rem);line-height:1.65;color:var(--muted);max-width:620px;margin:0 0 30px}
     .actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px}.launch{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:58px;padding:0 25px;border-radius:16px;color:#fff;font-size:1.05rem;font-weight:850;background:linear-gradient(135deg,var(--blue),var(--teal));box-shadow:0 15px 30px rgba(47,109,246,.22);text-decoration:none;transition:.18s}.launch:hover{transform:translateY(-2px);box-shadow:0 18px 36px rgba(47,109,246,.30)}.micro{font-size:.9rem;color:#6a7e88;line-height:1.45;max-width:260px}
     .visual{display:flex;justify-content:center;align-items:center}.logo-wrap{width:min(390px,90%);aspect-ratio:1;display:grid;place-items:center;border-radius:38px;background:linear-gradient(145deg,#f7fffd,#eaf5ff);box-shadow:inset 0 0 0 1px #e3eef3,0 24px 55px rgba(7,43,58,.12);padding:28px}.logo-wrap img{width:100%;height:100%;object-fit:contain}
-    .footer{display:flex;justify-content:space-between;gap:16px;color:rgba(255,255,255,.72);font-size:.84rem;padding:18px 10px 0}.footer strong{color:#fff}
-    @media(max-width:820px){body{padding:18px}.card{grid-template-columns:1fr;padding:34px 24px;gap:32px}.visual{order:-1}.logo-wrap{width:min(300px,78vw)}.footer{flex-direction:column;text-align:center;align-items:center}.actions{align-items:flex-start;flex-direction:column}.micro{max-width:none}}
+    .footer{display:flex;justify-content:space-between;gap:16px;color:rgba(255,255,255,.72);font-size:.84rem;padding:18px 10px 0;flex-wrap:wrap}.footer strong{color:#fff}.footer a{color:#fff;text-decoration:none;margin-left:14px}.footer a:hover{text-decoration:underline}
+    @media(max-width:820px){body{padding:18px}.card{grid-template-columns:1fr;padding:34px 24px;gap:32px}.visual{order:-1}.logo-wrap{width:min(300px,78vw)}.footer{flex-direction:column;text-align:center;align-items:center}.footer a{margin:0 7px}.actions{align-items:flex-start;flex-direction:column}.micro{max-width:none}}
   </style>
 </head>
 <body>
@@ -39,7 +39,7 @@
       </div>
       <div class="visual"><div class="logo-wrap"><img src="logo.svg" alt="ClassPilot logo" /></div></div>
     </section>
-    <div class="footer"><div><strong>ClassPilot Free Preview</strong></div><div>Simple setup. Your classroom. Your data.</div></div>
+    <div class="footer"><div><strong>ClassPilot Free Preview</strong></div><div>Simple setup. Your classroom. Your data. <a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></div></div>
   </main>
 </body>
 </html>
